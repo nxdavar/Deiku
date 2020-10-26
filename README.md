@@ -1,4 +1,4 @@
-# vitamindtime
+# Deiku
 
 A new Flutter application.
 
