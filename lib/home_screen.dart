@@ -57,8 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
   //api.openweathermap.org/data/2.5/weather?lat=$lat&lon=$long&appid=90e9ceeb9208de8b0a28172e99456a56
 
   Future getWeather() async {
-    String url =
-        "http://api.openweathermap.org/data/2.5/weather?lat=$lat&lon=$long&appid=90e9ceeb9208de8b0a28172e99456a56";
+    String url = // YOUR API URL HERE ;
     print(url);
     http.Response response = await http.get(url);
     var results = jsonDecode(response.body);
